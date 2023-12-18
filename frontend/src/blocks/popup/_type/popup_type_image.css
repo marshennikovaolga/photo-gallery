@@ -1,0 +1,9 @@
+.popup_type_image {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup_type_image.popup_open {
+    visibility: visible;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.9);
+}

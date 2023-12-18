@@ -1,0 +1,21 @@
+.welcome__submit {
+    border: none;
+    border-radius: 2px;
+    background-color: #fff;
+    margin: 196px 0 0;
+    padding: 2px 0 0;
+    color: #000;
+    font-size: 18px;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.welcome__submit:hover {
+    opacity: 0.8;
+}
+
+.welcome__submit:focus {
+    opacity: 0.8;
+}

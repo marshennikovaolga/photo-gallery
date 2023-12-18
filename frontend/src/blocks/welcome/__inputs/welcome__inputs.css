@@ -1,0 +1,9 @@
+.welcome__inputs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    min-height: 47px;
+}

@@ -1,0 +1,11 @@
+.welcome__input {
+    background-color: initial;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    box-sizing: border-box;
+    font-weight: 500;
+    height: 27px;
+    padding: 0 0 7px;
+    width: 100%;
+    color: #fff;
+}

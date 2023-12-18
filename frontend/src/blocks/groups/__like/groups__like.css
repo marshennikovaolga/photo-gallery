@@ -1,0 +1,18 @@
+.groups__like {
+    width: 22px;
+    height: 19px;
+    background-color: #fff;
+    background: url(../../../images/like.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: none;
+    padding: 0;
+    /* margin-top: 5px; */
+    margin: 0;
+}
+
+.groups__like:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}

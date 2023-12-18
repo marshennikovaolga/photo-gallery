@@ -1,0 +1,14 @@
+.groups__element {
+    max-width: 282px;
+    list-style-type: none;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: start;
+    align-items: center;
+    background-image: linear-gradient(to bottom, black, black 10%, white 10%, white 100%);
+    border-radius: 10px;
+    border-color: none;
+    overflow: hidden;
+    position: relative;
+}

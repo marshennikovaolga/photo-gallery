@@ -1,0 +1,7 @@
+.popup__caption {
+    margin: 0;
+    padding-top: 10px;
+    max-width: 75vw;
+    max-height: 75vh;
+    color: white;
+}

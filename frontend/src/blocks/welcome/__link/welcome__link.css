@@ -1,0 +1,10 @@
+.welcome__link {
+    color: #fff;
+    text-decoration: none;
+    transition: opacity .5s ease;
+  }
+  
+  .welcome__link:hover {
+    color: #A9A9A9;
+    opacity: .6;
+  }

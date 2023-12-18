@@ -1,0 +1,24 @@
+.profile__pic {
+    border-radius: 50%;
+    width: 120px;
+    margin: 0 0 22px 0;
+    aspect-ratio: 120/120;
+    object-fit: cover;
+    justify-self: center;
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 2;
+}
+
+.profile__pic:hover {
+    opacity: 0.5;
+}
+
+@media screen and (min-width: 768px) {
+    .profile__pic {
+        justify-self: start;
+        margin-right: 30px;
+        margin-bottom: 4px;
+    }
+}

@@ -1,0 +1,27 @@
+.profile__btn-edit {
+    margin: 0;
+    padding: 0;
+    background: url(../../../images/editor.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-self: center;
+    border: 1px solid #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.profile__btn-edit:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+@media screen and (min-width: 768px) {
+    .profile__btn-edit {
+        width: 24px;
+        height: 24px;
+        align-self: center;
+        justify-content: start;
+    }
+}

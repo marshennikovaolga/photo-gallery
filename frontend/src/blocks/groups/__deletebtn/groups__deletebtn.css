@@ -1,0 +1,19 @@
+.groups__deletebtn {
+    background-image: url(../../../images/trash.svg);
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    width: 18px;
+    height: 19px;
+    overflow: hidden;
+    transition: opacity 0.2s ease-out;
+}
+
+.groups__deletebtn:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}

@@ -1,0 +1,7 @@
+.welcome__auth-inputs {
+    row-gap: 3px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    min-height: 47px;
+}

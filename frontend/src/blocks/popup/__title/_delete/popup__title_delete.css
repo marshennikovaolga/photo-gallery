@@ -1,0 +1,9 @@
+.popup__title_delete {
+    margin: 0 auto 20px;
+}
+
+@media screen and (min-width: 500px) {
+    .popup__title_delete {
+        width: 358px;
+    }
+}

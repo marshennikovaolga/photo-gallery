@@ -1,0 +1,17 @@
+.groups {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 880px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 282px);
+    gap: 20px 17px;
+    box-sizing: border-box;
+    /* justify-content: center; */
+  }
+  
+  @media screen and (max-width: 640px) {
+    .groups {
+      margin: 0 auto 48px auto;
+      max-width: 282px;
+    }
+  }
