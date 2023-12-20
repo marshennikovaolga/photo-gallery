@@ -1,5 +1,4 @@
-// const BASE_URL = 'http://localhost:3000';
-const BASE_URL = process.env.REACT_APP_BASE_URL;
+const BASE_URL = process.env.REACT_APP_API_URL;
 
 function checkResponse(res) {
   return res.ok ? res.json() : Promise.reject(`Ошибка checkResponse: ${res.status}${res.statusText}`)
