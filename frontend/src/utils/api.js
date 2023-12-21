@@ -1,6 +1,7 @@
 class Api {
   constructor(options) {
-    this._baseUrl = options.baseUrl;
+    // this._baseUrl = options.baseUrl;
+    this._baseUrl = process.env.REACT_APP_API_URL || (options && options.baseUrl ? `${options.baseUrl}/api` : '');
   }
 
   _checkResponse(res){
