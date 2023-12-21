@@ -1,8 +1,7 @@
-BASE_URL = process.env.REACT_APP_API_URL;
+const BASE_URL = process.env.REACT_APP_API_URL;
 
 class Api {
   constructor(options) {
-    // this._baseUrl = options.baseUrl;
     this._baseUrl = options.baseUrl || BASE_URL;
   }
 
