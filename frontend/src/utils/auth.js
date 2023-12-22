@@ -1,4 +1,4 @@
-const BASE_URL = 'http://api.marshennikova.nomoredomainsmonster.ru';
+const BASE_URL = 'https://api.marshennikova.nomoredomainsmonster.ru';
 
 function checkResponse(res) {
   return res.ok ? res.json() : Promise.reject(`Ошибка checkResponse: ${res.status}${res.statusText}`)
