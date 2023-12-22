@@ -12,6 +12,13 @@ const app = express();
 const { PORT = 3000, DB_URL = 'mongodb://127.0.0.1:27017/mestodb' } = process.env;
 mongoose.connect(DB_URL);
 
+app.use(helmet());
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 100,
+});
+app.use(limiter);
+
 app.use(cors());
 
 app.use(express.json());
@@ -21,13 +28,6 @@ app.use(reqestLogger);
 app.use('/', require('./routes/index'));
 
 app.use(errorLogger);
-
-const limiter = rateLimit({
-  windowMs: 15 * 60 * 1000,
-  max: 100,
-});
-app.use(limiter);
-app.use(helmet());
 
 app.use(errors());
 app.use(globalError);

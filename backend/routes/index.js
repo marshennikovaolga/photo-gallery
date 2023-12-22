@@ -11,7 +11,7 @@ router.use('/signin', signinRouter);
 router.use('/users', auth, userRouter);
 router.use('/cards', auth, cardRouter);
 
-router.use('*', (req, res, next) => {
+router.use('*', auth, (req, res, next) => {
   next(new NotFoundError());
 });
 
