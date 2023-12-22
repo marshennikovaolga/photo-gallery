@@ -11,6 +11,6 @@
 
 IP 51.250.65.96
 
-Frontend https://http://marshennikova.nomoredomainsmonster.ru
+Frontend https://marshennikova.nomoredomainsmonster.ru
 
-Backend https://api.http://marshennikova.nomoredomainsmonster.ru
+Backend https://api.marshennikova.nomoredomainsmonster.ru
