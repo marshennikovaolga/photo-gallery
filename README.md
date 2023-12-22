@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 51.250.65.96
+IP 51.250.65.96
 
 Frontend https://http://marshennikova.nomoredomainsmonster.ru
 

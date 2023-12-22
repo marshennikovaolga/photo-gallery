@@ -1,8 +1,6 @@
-const BASE_URL = process.env.REACT_APP_API_URL;
-
 class Api {
   constructor(options) {
-    this._baseUrl = options.baseUrl || BASE_URL;
+    this._baseUrl = options.baseUrl;
   }
 
   _checkResponse(res){
@@ -98,7 +96,7 @@ class Api {
 }
 
 const api = new Api({
-  baseUrl: 'http://marshennikova.nomoredomainsmonster.ru',
+  baseUrl: 'http://api.marshennikova.nomoredomainsmonster.ru',
 });
 
 export default api;

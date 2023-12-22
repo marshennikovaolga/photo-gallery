@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use(reqestLogger);
-app.use('/api/', require('./routes/index'));
+app.use('/', require('./routes/index'));
 
 app.use(errorLogger);
 

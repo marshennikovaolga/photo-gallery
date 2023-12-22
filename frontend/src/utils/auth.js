@@ -1,4 +1,4 @@
-const BASE_URL = process.env.REACT_APP_API_URL;
+const BASE_URL = 'http://api.marshennikova.nomoredomainsmonster.ru';
 
 function checkResponse(res) {
   return res.ok ? res.json() : Promise.reject(`Ошибка checkResponse: ${res.status}${res.statusText}`)
